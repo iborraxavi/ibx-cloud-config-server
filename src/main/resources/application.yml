@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: ibx-cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/iborraxavi/ibx-cloud-config
+          default-label: main
